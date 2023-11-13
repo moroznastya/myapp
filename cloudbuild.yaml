@@ -18,7 +18,7 @@ steps:
   - $_FUNCTION_NAME
   - --region=$_FUNCTION_REGION
   - --source=.
-  - --trigger-http
+  - --trigger-https
   - --runtime=$_FUNCTION_RUNTIME
   - --project=$_FUNCTION_PROJECT
   - --entry-point=$_ENTRY_POINT
